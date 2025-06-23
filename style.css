@@ -1,0 +1,130 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Umum */
+body {
+    font: 16px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container Utama */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+/* Judul Header */
+.judul {
+    font-size: 36px;
+    text-align: center;
+    color: #8B0000;
+    background-color: #FFA07A;
+    padding: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Navigasi */
+nav {
+    background-color: chocolate;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff5e1;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Gambar Header */
+.gambar {
+    background-image: url(yani.png);
+  height: 400px; 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+
+  }
+
+  .gambar img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-top: 5px solid #000;
+}
+
+
+/* Konten Artikel */
+.content {
+    padding: 25px;
+    background-color: #fff;
+    color: #222;
+}
+
+.content h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #b22222;
+}
+
+.content .penulis {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.content .penulis a {
+    text-decoration: none;
+    color: #444;
+}
+
+.content .penulis a:hover {
+    color: #c0392b;
+    font-weight: bold;
+}
+
+.content p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+.footer .copyright {
+    color: #d2b48c;
+    font-size: 12px;
+}

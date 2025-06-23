@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+/* Profil Section */
+.profil {
+  padding: 30px;
+}
+
+.tentang-saya {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.foto-profil {
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #d2691e;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.tentang-saya h2 {
+  color: maroon;
+  margin-top: 20px;
+}
+
+.tentang-saya p {
+  font-size: 16px;
+  color: #444;
+  margin: 10px auto;
+  max-width: 600px;
+}
+
+.data-diri h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.data-diri ul {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: auto;
+  font-size: 16px;
+}
+
+.data-diri li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Navigasi sama seperti galeri */
+nav {
+  background-color: #d2691e;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  background-color: black;
+}
+
+header .judul {
+  background-color: #ffa07a;
+  text-align: center;
+  padding: 30px 10px 10px;
+  color: maroon;
+  margin: 0;
+}
